@@ -23,20 +23,12 @@ var wordTranslstion = true
 
 for (key, value) in world{
     if translation == key{
-        wordTranslstion = true
+        wordTranslstion == true
         print(value)
         break
     }else{
-        wordTranslstion = false
-    }
-}
-
-var worldTranslation2 = true
-
-while worldTranslation2 {
-    if wordTranslstion == false{
+        wordTranslstion == false
         print("нет такого слова для перевода")
-        break
     }
 }
 
